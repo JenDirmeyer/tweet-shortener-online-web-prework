@@ -59,6 +59,7 @@ def shortened_tweet_truncator(tweet)
       return short_tweet
     else
      return short_tweet.slice(0,139)
+     binding.pry
     end
   end  
 end  
