@@ -31,7 +31,7 @@ def word_substituter(tweet)
     end
   end  
   cool_array = tweet_array.join(" ")
-  print cool_array
+  cool_array
   cool_array
 end  
 
@@ -44,7 +44,6 @@ end
 def selective_tweet_shortener(tweet)
     if tweet.length > 140
       puts word_substituter(tweet)
-      binding.pry
     end
 end  
   
