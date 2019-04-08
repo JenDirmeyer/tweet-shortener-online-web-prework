@@ -58,7 +58,7 @@ def shortened_tweet_truncator(tweet)
     if short_tweet <= 140
       return short_tweet
     else
-     shorter_tweet = short_tweet.slice(0,139)
+     shorter_tweet = short_tweet.slice(0,140)
      return shorter_tweet
     end
   end  
