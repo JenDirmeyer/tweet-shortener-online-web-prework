@@ -31,6 +31,7 @@ def word_substituter(tweet)
     end
   end  
   cool_array = tweet_array.join(" ")
+  print cool_array
   cool_array
 end  
 
